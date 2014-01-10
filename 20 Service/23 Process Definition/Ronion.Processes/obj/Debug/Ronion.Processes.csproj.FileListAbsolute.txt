@@ -1,9 +1,0 @@
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\bin\Debug\Ronion.Processes.dll
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\bin\Debug\Ronion.Processes.pdb
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\bin\Debug\Ronion.Common.Base.dll
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\bin\Debug\Ronion.Entities.dll
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\bin\Debug\Ronion.Common.Base.pdb
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\bin\Debug\Ronion.Entities.pdb
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\obj\Debug\Ronion.Processes.csprojResolveAssemblyReference.cache
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\obj\Debug\Ronion.Processes.dll
-D:\Projects\Test Dev Projects\Ronion\Ronion.Processes\obj\Debug\Ronion.Processes.pdb

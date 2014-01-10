@@ -1,5 +1,0 @@
-D:\Projects\Test Dev Projects\Ronion\10 Core\Ronion.MailSenderContract\bin\Debug\Ronion.MailSenderContract.dll
-D:\Projects\Test Dev Projects\Ronion\10 Core\Ronion.MailSenderContract\bin\Debug\Ronion.MailSenderContract.pdb
-D:\Projects\Test Dev Projects\Ronion\10 Core\Ronion.MailSenderContract\obj\Debug\Ronion.MailSenderContract.csprojResolveAssemblyReference.cache
-D:\Projects\Test Dev Projects\Ronion\10 Core\Ronion.MailSenderContract\obj\Debug\Ronion.MailSenderContract.dll
-D:\Projects\Test Dev Projects\Ronion\10 Core\Ronion.MailSenderContract\obj\Debug\Ronion.MailSenderContract.pdb
