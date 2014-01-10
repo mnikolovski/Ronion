@@ -61,11 +61,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 Clients", "40 Clients", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronion.DomainServiceInstance", "20 Service\24 Domain Services\Ronion.DomainServiceInstance\Ronion.DomainServiceInstance.csproj", "{A4870AD8-6E4E-45DF-9AE9-3760CB516A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronion.BackofficeClient", "50 Api\Ronion.BackofficeClient\Ronion.BackofficeClient.csproj", "{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronin.ConsoleLogger", "10 Core\11 Logger\Ronin.ConsoleLogger\Ronin.ConsoleLogger.csproj", "{043C2521-4EA9-4575-A69A-07B3379447F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronion.WebShopClient", "40 Clients\Ronion.WebShopClient\Ronion.WebShopClient.csproj", "{012532F8-D067-4B60-9371-8AA9104CB6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ronion.BackofficeClient", "40 Clients\Ronion.BackofficeClient\Ronion.BackofficeClient.csproj", "{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,10 +137,6 @@ Global
 		{A4870AD8-6E4E-45DF-9AE9-3760CB516A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4870AD8-6E4E-45DF-9AE9-3760CB516A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4870AD8-6E4E-45DF-9AE9-3760CB516A34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{043C2521-4EA9-4575-A69A-07B3379447F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{043C2521-4EA9-4575-A69A-07B3379447F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{043C2521-4EA9-4575-A69A-07B3379447F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -149,6 +145,10 @@ Global
 		{012532F8-D067-4B60-9371-8AA9104CB6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{012532F8-D067-4B60-9371-8AA9104CB6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{012532F8-D067-4B60-9371-8AA9104CB6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,7 +180,7 @@ Global
 		{E82BB394-5ECF-4F63-9EBD-DBC4A99834BA} = {C9189C6A-E9D7-481E-9CF0-E1FFAFB27F4A}
 		{4145E68E-F1EE-4C72-96C4-FABD2BE49D3A} = {C9189C6A-E9D7-481E-9CF0-E1FFAFB27F4A}
 		{043C2521-4EA9-4575-A69A-07B3379447F9} = {C9189C6A-E9D7-481E-9CF0-E1FFAFB27F4A}
-		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C} = {301EF6A0-7BAB-45C2-925F-B7B0EC3A45B6}
 		{012532F8-D067-4B60-9371-8AA9104CB6C3} = {301EF6A0-7BAB-45C2-925F-B7B0EC3A45B6}
+		{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C} = {301EF6A0-7BAB-45C2-925F-B7B0EC3A45B6}
 	EndGlobalSection
 EndGlobal
