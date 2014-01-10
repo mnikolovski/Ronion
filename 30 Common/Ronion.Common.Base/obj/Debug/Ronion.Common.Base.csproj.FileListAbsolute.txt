@@ -1,0 +1,5 @@
+D:\Projects\Test Dev Projects\Ronion\Ronion.Common.Base\bin\Debug\Ronion.Common.Base.dll
+D:\Projects\Test Dev Projects\Ronion\Ronion.Common.Base\bin\Debug\Ronion.Common.Base.pdb
+D:\Projects\Test Dev Projects\Ronion\Ronion.Common.Base\obj\Debug\Ronion.Common.Base.csprojResolveAssemblyReference.cache
+D:\Projects\Test Dev Projects\Ronion\Ronion.Common.Base\obj\Debug\Ronion.Common.Base.dll
+D:\Projects\Test Dev Projects\Ronion\Ronion.Common.Base\obj\Debug\Ronion.Common.Base.pdb

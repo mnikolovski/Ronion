@@ -1,0 +1,7 @@
+D:\Projects\Test Dev Projects\Ronion\10 Core\Ronin.MailChimp\bin\Debug\Ronin.MailChimp.dll
+D:\Projects\Test Dev Projects\Ronion\10 Core\Ronin.MailChimp\bin\Debug\Ronin.MailChimp.pdb
+D:\Projects\Test Dev Projects\Ronion\10 Core\Ronin.MailChimp\bin\Debug\Ronion.MailSenderContract.dll
+D:\Projects\Test Dev Projects\Ronion\10 Core\Ronin.MailChimp\bin\Debug\Ronion.MailSenderContract.pdb
+D:\Projects\Test Dev Projects\Ronion\10 Core\Ronin.MailChimp\obj\Debug\Ronin.MailChimp.csprojResolveAssemblyReference.cache
+D:\Projects\Test Dev Projects\Ronion\10 Core\Ronin.MailChimp\obj\Debug\Ronin.MailChimp.dll
+D:\Projects\Test Dev Projects\Ronion\10 Core\Ronin.MailChimp\obj\Debug\Ronin.MailChimp.pdb

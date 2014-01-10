@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBE9AAAE-9A7A-4692-A3CF-51B3FD62E45C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ronion.BackofficeClient</RootNamespace>
+    <AssemblyName>Ronion.BackofficeClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emit.ExtensibilityProvider">
+      <HintPath>..\..\Libs\Emit.ExtensibilityProvider\Emit.ExtensibilityProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\10 Core\11 Logger\Ronin.ConsoleLogger\Ronin.ConsoleLogger.csproj">
+      <Project>{043c2521-4ea9-4575-a69a-07b3379447f9}</Project>
+      <Name>Ronin.ConsoleLogger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\10 Core\11 Logger\Ronin.LoggerContract\Ronin.LoggerContract.csproj">
+      <Project>{e82bb394-5ecf-4f63-9ebd-dbc4a99834ba}</Project>
+      <Name>Ronin.LoggerContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\10 Core\12 Mail Sender\Ronin.MailChimp\Ronin.MailChimp.csproj">
+      <Project>{f4e72bdd-9b75-400b-b8cc-c396c90bbf8f}</Project>
+      <Name>Ronin.MailChimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\10 Core\12 Mail Sender\Ronion.MailSenderContract\Ronion.MailSenderContract.csproj">
+      <Project>{16e9f1fc-4929-4a45-93c9-65a689135d4e}</Project>
+      <Name>Ronion.MailSenderContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\21 Entitites\Ronion.Entities\Ronion.Entities.csproj">
+      <Project>{0aaca54d-c8d9-4c99-b368-c0f6dce5238b}</Project>
+      <Name>Ronion.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\22 Infrastructure Services\Billing\Ronion.AuthorizeNetBilling\Ronion.AuthorizeNetBilling.csproj">
+      <Project>{9e763bbd-2e43-4483-8e41-cf9a5213d767}</Project>
+      <Name>Ronion.AuthorizeNetBilling</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\22 Infrastructure Services\Billing\Ronion.BillingContracts\Ronion.BillingContracts.csproj">
+      <Project>{781b2768-3335-4ecc-aff2-bfdc5038bae3}</Project>
+      <Name>Ronion.BillingContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\22 Infrastructure Services\CRM\Ronion.CrmRepositoryContract\Ronion.CrmRepositoryContract.csproj">
+      <Project>{21c5eeee-6f18-411d-a15b-03a1da220f45}</Project>
+      <Name>Ronion.CrmRepositoryContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\22 Infrastructure Services\CRM\Ronion.CrmRepository\Ronion.CrmRepository.csproj">
+      <Project>{05504076-2ecf-4006-9990-37c3e7220f2f}</Project>
+      <Name>Ronion.CrmRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\22 Infrastructure Services\Logistics\Ronion.LogisticsContracts\Ronion.LogisticsContracts.csproj">
+      <Project>{1223c3e0-63ca-4cd2-a4c9-13591e1982e5}</Project>
+      <Name>Ronion.LogisticsContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\22 Infrastructure Services\Logistics\Ronion.UpsLogistics\Ronion.UpsLogistics.csproj">
+      <Project>{d33b9777-a8df-46db-ad24-e4967bda280f}</Project>
+      <Name>Ronion.UpsLogistics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\23 Process Definition\Ronion.Processes\Ronion.Processes.csproj">
+      <Project>{b5943b6e-82b1-4958-a6d0-7c357f1267e7}</Project>
+      <Name>Ronion.Processes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\24 Domain Services\Ronion.DomainServiceInstance\Ronion.DomainServiceInstance.csproj">
+      <Project>{a4870ad8-6e4e-45df-9ae9-3760cb516a34}</Project>
+      <Name>Ronion.DomainServiceInstance</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\24 Domain Services\Ronion.DomainServicesContracts\Ronion.DomainServicesContracts.csproj">
+      <Project>{f614ff51-2b5a-4f1e-b484-829f0249a08b}</Project>
+      <Name>Ronion.DomainServicesContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\20 Service\24 Domain Services\Ronion.DomainServices\Ronion.DomainServices.csproj">
+      <Project>{6a1aa970-6d64-4f6e-baae-0e1c979d015d}</Project>
+      <Name>Ronion.DomainServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\30 Common\Ronion.Common.Base\Ronion.Common.Base.csproj">
+      <Project>{5607f306-7ee2-4e81-b634-be757da3b2c8}</Project>
+      <Name>Ronion.Common.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

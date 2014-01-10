@@ -1,0 +1,18 @@
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\bin\Debug\Ronion.UpsLogistics.dll
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\bin\Debug\Ronion.UpsLogistics.pdb
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\bin\Debug\Ronion.Entities.dll
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\bin\Debug\Ronion.LogisticsContracts.dll
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\bin\Debug\Ronion.Entities.pdb
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\bin\Debug\Ronion.LogisticsContracts.pdb
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\obj\Debug\Ronion.UpsLogistics.csprojResolveAssemblyReference.cache
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\obj\Debug\Ronion.UpsLogistics.dll
+D:\Projects\Test Dev Projects\Ronion\Ronion.UpsLogistics\obj\Debug\Ronion.UpsLogistics.pdb
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\bin\Debug\Ronion.UpsLogistics.dll
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\bin\Debug\Ronion.UpsLogistics.pdb
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\bin\Debug\Ronion.Entities.dll
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\bin\Debug\Ronion.LogisticsContracts.dll
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\bin\Debug\Ronion.Entities.pdb
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\bin\Debug\Ronion.LogisticsContracts.pdb
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\obj\Debug\Ronion.UpsLogistics.csprojResolveAssemblyReference.cache
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\obj\Debug\Ronion.UpsLogistics.dll
+D:\Projects\Test Dev Projects\Ronion\20 Service\22 Infrastructure Repositories\Logistics\Ronion.UpsLogistics\obj\Debug\Ronion.UpsLogistics.pdb
